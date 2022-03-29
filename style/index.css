@@ -1,0 +1,139 @@
+
+ 
+#one1{
+    display: flex;
+    gap: 10px;
+    /* border: 1px solid black; */
+    height: 50px;
+    width:80%;
+    margin-left: 9%;
+}#second{
+    display: flex;
+    /* border: 1px solid black; */
+    margin-left: 20%;
+    gap: 40px;
+}#second img{
+    height: 30px;
+}#second button{
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+}#three{
+    height: 40px;
+    width: 100%;
+    /* background-color: black; */
+    color: white;
+}#three img{
+height: 20px;
+margin-bottom:2%;
+}#four{
+    display: flex;
+    margin-left: 40%;
+}#four>h3{
+   margin-bottom: 30px;
+    
+}#big{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+}#five{
+    width: 100%;
+    height: 65px;
+    background-color:rgb(228,0,43);
+    display: flex;
+    /* border: 1px solid red; */
+}#five1{
+    margin-left: 12%;
+}#five1 h3{
+    color: white;
+}#five button{
+    margin-left: 25%;
+    width: 10%;
+    padding-top: 5px;
+    height: 50px;
+    border-radius: 20px;
+}#six{
+ /* border: 1px solid blue; */
+ height: 460px;
+}#six1 h1{
+margin-left: 10%;
+font-weight: 20%;
+}#six2{
+    display: flex;
+    gap: 20px;
+    margin-left: 10%;
+}
+#six2 img{
+height: 270px;
+}#six2 img:hover{
+    -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}hr{
+    margin: auto;
+    color: black;
+}#slideshow img{
+    height: 300px;
+    width: 100%;
+}#seven{
+    margin-left: 10%;
+}#eight{
+    margin-left: 10%;
+    margin-top: 8%;
+}#nine{
+    /* border: 1px solid black; */
+    height: 440px;
+}
+#nine1{
+    display: flex;
+    gap: 5%;
+    margin-left: 5%;
+    /* border: 1px solid black; */
+}#nine1 img{
+height:150px;
+}#ten{
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 5%;
+    margin-left: 5%;
+}#ten img{
+    height: 150px;
+}#kfc{
+    border: 1px solid black;
+    height: 450px;
+    width:150%;
+    background-color: black;
+}#kfc1{
+    height: 50px;
+    border: 1px solid black;
+}#kfc1 img{
+height: 30px;
+margin-left:5%;
+}#kfc2{
+    display: flex;
+    justify-content: space-around;
+}#kfc3{
+    display: flex;
+    width: 120%;
+   
+
+   
+}#kfc3 img{
+    height: 300px;
+    width: 80%;
+    
+}#kfc3 div{
+    justify-content: space-around;
+    color: white;
+}#kfc3a{
+   border: 1px solid black; 
+   width: 5%;
+   margin-top: 5%;
+}#kfc3b{
+    margin-top: 5%;
+    
+
+}

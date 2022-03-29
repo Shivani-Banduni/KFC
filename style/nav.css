@@ -1,0 +1,43 @@
+#nav{
+    height: 90px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    /* position: fixed; */
+    position: sticky;
+}#nav1{
+    display: flex;
+    gap: 25px;
+    margin-left:14%;
+}#nav1 h1 a{
+   color: red;
+}#nav1 h3{
+    margin-top: 25px;
+}#nav2{
+    display: flex;
+    gap:30px;
+    width: 50%;
+    padding-top: 10px;
+    height: 50px;
+    margin-left: 40%;
+    /* border: 1px solid black; */
+}#nav2 img{
+   height: 50px;
+  
+}#nav_two{
+    display: flex;
+    /* border: 1px solid blue; */
+    gap: 10px;
+    background-color: black;
+   /* margin-left: 25%; */
+   color: white;
+}#nav_two div{
+    margin-left: 20%;
+}
+#nav_two button {
+background-color: red;
+color: white;
+height: 40px;
+width: 130px;
+border-radius: 20px;
+}

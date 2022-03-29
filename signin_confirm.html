@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #confirm{
+         /* border: 1px solid black; */
+            margin: auto;
+            width: 50%;
+        }#con1, #con2{
+           margin-left: 35%;
+        }#con3{
+            margin-left: 16%;
+
+        }#con4{
+           margin-left: 30%;
+        }#con5, #con6{
+            width: 80%;
+            margin-top: 3%;
+            margin-left: 8%;
+        }#con7 {
+            margin-left:40% ;
+            margin-top: 3%;
+            width: 20%;
+            height: 30px;
+            border-radius: 20px;
+            
+        }#con8{
+            margin-left: 48%;
+        }#con9{
+            height:30px; 
+            width:80%;
+            height: 40px;  
+            margin-top: 2%;
+            margin-left: 8%;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="confirm">
+        <div><p id="con1">Sign in/Sign up</p></div>
+        <div ><h2 id="con2" >WELCOME,</h2></div>
+        <div><h2 id="con3"> THANKU YOU FOR BEING WITH US!</h2></div>
+        <div><p id="con4" >Please let us know you more.</p></div>
+        <div><input type="text", id="con5" placeholder="First Name"></div>
+        <div><input type="text" , id="con6" placeholder="Email Address"></div>
+        <div><button id="con7" onclick="done()">Submit</button></div>
+        <div><p id="con8">Or</p></div>
+        <div><button id="con9">Skip, Ask me later</button></div>
+
+    </div>
+</body>
+</html>
+<script>
+function done(){
+    alert("Thanku for signing in")
+    window.location.href="index1.html"
+    let name=document.getElementById("con5").value
+    localStorage.setItem("name",JSON.stringify(name))
+
+}
+
+
+
+</script>

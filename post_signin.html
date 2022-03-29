@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #post{
+        display: flex;
+        gap: 8%;
+    }#post1{
+        background-color: black;
+        /* border: 1px solid red; */
+        flex: 30%;
+        height: 520px;
+        margin-left: 8%;
+    }#post2{
+        flex: 60%;
+        /* border: 1px solid green; */
+        height: 400px;
+       
+    }#post2 div{
+        margin-top: 3%;
+    }
+    #post2a{
+        display: flex;
+        justify-content: space-around;
+        /* border: 1px solid red; */
+    }#post2a button{
+        height: 30px;
+        border-radius: 20px;
+        margin-top: 10%;
+    }#post2b{
+        height: 35px;
+        background-color: black;
+        color: white;
+        width: 15%;
+        border-radius: 20px;
+    }#post2c{
+        display: flex;
+        justify-content: space-around;
+    } #post2c button{
+        height: 30px;
+        width:100px;
+        margin-left: 40%;
+        border-radius: 20px;
+        margin-top: 10%;
+    }#post1a{
+        border: 1px solid red;
+        height: 100px;
+        color: white;
+    }
+        
+</style>
+<body>
+    <div id="post">
+        <div id="post1">
+            <div id="post1a">
+
+            </div>
+        </div>
+       
+       
+       
+        <div id="post2">
+           <div id="post2a">
+            <div><h2>ORDER HISTORY</h2></div>
+            <div><p>Looking for a specific order?</p></div>
+            <div><button>Order Lookup</button></div>
+           </div>
+           <div><h3>No orders have been placed in the past 12 months</h3></div>
+           <div><button id="post2b">View menu</button></div>
+          <div>_________________________________________________________________________________________</div>
+         <div id="post2c">
+            <div><h2>HAVE A QUESTION?</h2></div>
+            
+            <div><button>Get Help</button></div>
+  
+         </div>
+         <div><p>Connect with a specialist for answers</p></div>
+
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    let name=JSON.parse(localStorage.getItem("name"))
+    console.log(name)
+    let d=document.getElementById("post1a")
+    d.innerHTML=name
+ 
+    
+
+
+
+  
+</script>
