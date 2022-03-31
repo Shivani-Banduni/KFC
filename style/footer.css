@@ -1,0 +1,28 @@
+#foot{
+    display: flex;
+    gap: 30px;
+    margin: 10% 5% 5% 5%;
+    background-color: rgb(32,33,36);
+   height:300px;
+}   
+#l{
+    display: flex;
+}#im img{
+    height: 30px;
+    margin-top: 29%;
+
+}#im1 img{
+    height: 90px;
+    padding-top:1px;
+    /* border: 1px solid black; */
+}#im2 img{
+    margin-top: 29%;
+    height: 30px;
+    /* border: 1px solid black; */
+}
+   
+#ii img{
+    margin-top: 30%;
+}#foot h5{
+    color: white;
+}

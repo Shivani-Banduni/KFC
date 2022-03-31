@@ -11,9 +11,16 @@
     margin-left:14%;
 }#nav1 h1 a{
    color: red;
-}#nav1 h3{
+   text-decoration: none;
+}#nav1 h3 a{
     margin-top: 25px;
-}#nav2{
+    text-decoration: none;
+    color: black;
+}#account a{
+    text-decoration: none;
+    color: black;
+}
+#nav2 {
     display: flex;
     gap:30px;
     width: 50%;
@@ -24,7 +31,11 @@
 }#nav2 img{
    height: 50px;
   
-}#nav_two{
+}#nav2 h4 a{
+    color: black;
+    text-decoration: none;
+}
+#nav_two{
     display: flex;
     /* border: 1px solid blue; */
     gap: 10px;
@@ -40,4 +51,7 @@ color: white;
 height: 40px;
 width: 130px;
 border-radius: 20px;
+} #nav_two button a{
+color: white;
+text-decoration: none;
 }

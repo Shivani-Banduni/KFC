@@ -1,0 +1,25 @@
+#otp{
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 50%;
+    margin: auto;
+}#otp>div{
+   margin-left: 30%;
+  margin-top: 3%;
+}#otp1 {
+height: 40px;
+width: 30%;
+margin-left: 20%;
+border-radius: 10%;
+}#otp2{
+    margin-left: 20%;
+}#otp3{
+    margin-left: 15%;
+}#otp6, #otp5{
+    margin-left: 23%;
+}#otp4{
+    margin-left: 14%;
+}#timer{
+    margin-left: 30%;
+}
+

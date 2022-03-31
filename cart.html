@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #agya{
+            border: 2px solid black;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+   <div id="agya">
+
+   </div> 
+</body>
+</html>
+<script>
+    let aaa=JSON.parse(localStorage.getItem("aa"))
+    
+  console.log(aaa)
+
+    aaa.forEach(el => {
+        console.log("aaa:",aaa)
+        agya.innerHTML=null
+            let div=document.createElement("div")
+            let img=document.createElement("img")
+            img.src=el.image
+            let name=document.createElement("p")
+            name.innerText=el.name
+
+            let des=document.createElement("p")
+            des.innerText=el.des
+
+            let pri=document.createElement("p")
+            pri.innerText=el.price
+
+            let des1=document.createElement("p")
+            des1.innerText=el.des1 
+            div.append(img,name,des,pri,des1)
+
+            document.getElementById("agya").append(div)
+    });
+</script>

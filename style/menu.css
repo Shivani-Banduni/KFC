@@ -1,0 +1,140 @@
+#menu{
+    display: flex;
+    gap: 2%;
+    /* border: 1px solid black; */
+    height: 3000px;
+}#menu1{
+    /* border: 5px solid red; */
+    width: 25%;
+}#menu2{
+    /* border: 5px solid black; */
+    width: 75%;
+    height: 4000px;
+}#nav_div{
+    height: 30px;
+}#menu1 div{
+    margin-left: 15%;
+    margin-top: 5%;
+}#menu2a{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4%;
+    /* border: 1 px solid black */
+}#f{
+    margin-top: 60%;
+  
+}
+#menu2a img{
+    height: 200px;
+}#menu1 h3{
+    /* border: 1px solid red; */
+    width: 180px;
+}#btn{
+    background-color: red;
+    height: 40px;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+}#menu2b {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#menu2b img{
+    height: 200px; 
+}menu2b button{
+    background-color: red;
+    height: 40px;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+}menu2c button{
+    background-color: red;
+    height: 40px;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+}
+menu2d button{
+    background-color: red;
+    height: 40px;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+}
+#menu2c{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}#menu2c img{
+    height: 200px;
+}menu2b button{
+    background-color: red;
+    height: 40px;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+}#menu2d{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}#menu2d img{
+    height: 200px;
+}menu2d button{
+    background-color: red;
+    height: 40px;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+}#menu2a button{
+    background-color: red;
+    height: 40px;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+    
+   
+}
+#btn1{
+    background-color: red;
+    height: 40px;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+}#btn2{
+    background-color: red;
+    height: 40px;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+}#btn3{
+    background-color: red;
+    height: 40px;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+}#btn4{
+    background-color: red;
+    height: 40px;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+}#btn5{
+    background-color: red;
+    height: 40px;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+}#btn6{
+    background-color: red;
+    height: 40px;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+}#btn7{
+    background-color: red;
+    height: 40px;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+}#menu div{
+    margin-top: 2%;
+}

@@ -48,9 +48,20 @@
         border-radius: 20px;
         margin-top: 10%;
     }#post1a{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         height: 100px;
         color: white;
+    }#post1 div{
+        color: white;
+        margin-top: 8%;
+        margin-left: 8%;
+    }#post2b a{
+        color: antiquewhite;
+        text-decoration: none;
+
+    }#m a{
+        color: white;
+        text-decoration: none;
     }
         
 </style>
@@ -58,8 +69,17 @@
     <div id="post">
         <div id="post1">
             <div id="post1a">
+              hello
 
             </div>
+            <div>Order History</div>
+            <div>My favorite Menu</div>
+            <div>Address</div>
+            <div>Account Setting</div>
+            <div onclick="l" ><h4 id="m"><a href="index.html">Logout</a></h4></div>
+
+            
+        
         </div>
        
        
@@ -71,7 +91,7 @@
             <div><button>Order Lookup</button></div>
            </div>
            <div><h3>No orders have been placed in the past 12 months</h3></div>
-           <div><button id="post2b">View menu</button></div>
+           <div><button id="post2b" onclick="p" ><a href="menu.html">View menu</a> </button></div>
           <div>_________________________________________________________________________________________</div>
          <div id="post2c">
             <div><h2>HAVE A QUESTION?</h2></div>
@@ -89,7 +109,9 @@
     let name=JSON.parse(localStorage.getItem("name"))
     console.log(name)
     let d=document.getElementById("post1a")
-    d.innerHTML=name
+    d.innerHTML= " Hello " + name
+    d.style.fontSize="30px"
+    
  
     
 

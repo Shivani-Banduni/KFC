@@ -5,31 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style/otp.css">
     <style>
-        #otp{
-            /* border: 1px solid black; */
-            height: 400px;
-            width: 50%;
-            margin: auto;
-        }#otp>div{
-           margin-left: 30%;
-          margin-top: 3%;
-        }#otp1 {
-    height: 40px;
-    width: 30%;
-    margin-left: 20%;
-    border-radius: 10%;
-        }#otp2{
-            margin-left: 20%;
-        }#otp3{
-            margin-left: 15%;
-        }#otp6, #otp5{
-            margin-left: 23%;
-        }#otp4{
-            margin-left: 14%;
-        }#timer{
-            margin-left: 30%;
-        }
+       
     </style>
 </head>
 <body>
@@ -46,31 +24,8 @@
     </div>
 </body>
 </html>
-<script>
-     let x=document.getElementById("timer")
-    function counter(){
-        let i=50
-        setInterval(function () {
-            i=i-1
-    
-        x.innerText=i
-   
-},1000);
-    }
-   counter()
-
-
-    let submit=()=>{
-        let otp=document.getElementById("otp4").value
-        if(otp!=1234){
-            window.location.href="index1.html"
-           
-            // console.log(otp)
-        }else{
-            window.location.href="signin_confirm.html"
-        }
-       
-    }
+<script src="./script/otp.js">
+     
    
 </script>
 
