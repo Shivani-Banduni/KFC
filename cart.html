@@ -8,30 +8,45 @@
     <style>
         #agya{
             /* border: 2px solid black; */
-            height: 350px;
-            margin-top: 5%;
+            height: 650px;
+            margin-top: 1%;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 2%;
         }#agya img{
             height: 200px;
         }#c{
             margin-left: 40%;
+            
+        }.p{
+            border: 1px solid black;
+            margin-top: 4%;
+            margin-left: 40%;
+            height: 40px;
+            border-radius: 10px;
+            background-color: red;
+            color: white;
         }
     </style>
 </head>
 <body>
+    <button onclick="last()" class="p">Proceed to Pay</button>
     <div><h1 id="c">Cart Page</h1></div>
-   <div id="agya">
+     <div id="agya">
+    <!-- <div id="agya2"></div> -->
 
    </div> 
+
 </body>
 </html>
 <script>
     let aaa=JSON.parse(localStorage.getItem("aa"))
-    
-  console.log(aaa)
-
+  
+//   console.log(aaa)
+  
     aaa.forEach(el => {
-        console.log("aaa:",aaa)
-        agya.innerHTML=null
+        //console.log("aaa:",aaa)
+        // agya.innerHTML=null
             let div=document.createElement("div")
             let img=document.createElement("img")
             img.src=el.image
@@ -49,5 +64,12 @@
             div.append(img,name,des,pri,des1)
 
             document.getElementById("agya").append(div)
+            // document.getElementById("agya2").append(div)
+           
+            
     });
+    function last(){
+        alert("item Added")
+        window.location.href="payment.html"
+    }
 </script>

@@ -300,10 +300,12 @@ localStorage.setItem("Beverages1",JSON.stringify(Beverages))
 
 
     let d=JSON.parse(localStorage.getItem("Match_Day"))
-        console.log("d:",d)
+        // console.log("d:",d)
         let arr=JSON.parse(localStorage.getItem("aa"))||[]
         let i=0
         d.map(el=> {
+           
+
             let div=document.createElement("div")
             let img=document.createElement("img")
             img.src=el.image
@@ -347,9 +349,10 @@ localStorage.setItem("Beverages1",JSON.stringify(Beverages))
 
         let d1=JSON.parse(localStorage.getItem("Chicken"))
         console.log("d1:",d1)
+       
 
         d1.map(el=> {
-            
+            let j=0;
             let div=document.createElement("div")
             let img=document.createElement("img")
             img.src=el.image
@@ -369,6 +372,18 @@ localStorage.setItem("Beverages1",JSON.stringify(Beverages))
             button.innerText="Add to cart"
             button.id="btn"
             button.addEventListener("click",()=>{
+
+                let zz=document.getElementById("z")
+                j++
+
+                zz.innerHTML=i+j
+
+                
+                arr.push(el)
+                console.log("d:",arr)
+                localStorage.setItem("aa",JSON.stringify(arr))
+               
+                // window.location.href=".html"
 
             })
 
@@ -381,12 +396,13 @@ localStorage.setItem("Beverages1",JSON.stringify(Beverages))
 
 
 
-
+        let k=0;
         let d2=JSON.parse(localStorage.getItem("Biryani"))
         console.log("d2:",d2)
+        
 
         d2.map(el=> {
-            
+          
             let div=document.createElement("div")
             let img=document.createElement("img")
             img.src=el.image
@@ -406,6 +422,17 @@ localStorage.setItem("Beverages1",JSON.stringify(Beverages))
             button.innerText="Add to cart"
             button.id="btn"
             button.addEventListener("click",()=>{
+
+                let zz=document.getElementById("z")
+                k++
+
+                zz.innerHTML=k+i+j
+
+                
+                arr.push(el)
+                console.log("d:",arr)
+                // window.location.href="start_order.html"
+                localStorage.setItem("aa",JSON.stringify(arr))
 
             })
             div.append(img,name,des,pri,des1,button)
