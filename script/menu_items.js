@@ -302,7 +302,7 @@ localStorage.setItem("Beverages1",JSON.stringify(Beverages))
     let d=JSON.parse(localStorage.getItem("Match_Day"))
         console.log("d:",d)
         let arr=JSON.parse(localStorage.getItem("aa"))||[]
-
+        let i=0
         d.map(el=> {
             let div=document.createElement("div")
             let img=document.createElement("img")
@@ -322,9 +322,13 @@ localStorage.setItem("Beverages1",JSON.stringify(Beverages))
             let button=document.createElement("button")
             button.innerText="Add to cart"
             button.addEventListener("click",()=>{
+                let zz=document.getElementById("z")
+                i++
+
+                zz.innerHTML=i
 
                 
-                arr.push(JSON.stringify(el))
+                arr.push(el)
                 console.log("d:",arr)
                 localStorage.setItem("aa",JSON.stringify(arr))
                 // window.location.href="cart.html"

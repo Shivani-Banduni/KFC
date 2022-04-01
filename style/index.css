@@ -69,11 +69,11 @@ font-weight: 20%;
 height: 270px;
 }#six2 img:hover{
     -webkit-transform: scale(1.2);
--ms-transform: scale(1.2);
-transform: scale(1.2);
-transition: 1s ease;
+ -ms-transform: scale(1.2);
+ transform: scale(1.2);
+transition: 1s ease; 
 }hr{
-    margin: auto;
+    margin: auto; 
     color: black;
 }#slideshow img{
     height: 300px;

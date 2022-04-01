@@ -2,15 +2,23 @@
     display: flex;
     gap: 2%;
     /* border: 1px solid black; */
-    height: 3000px;
+    height: 2200px;
 }#menu1{
     /* border: 5px solid red; */
     width: 25%;
 }#menu2{
-    /* border: 5px solid black; */
+        /* border: 6px solid red;  */
     width: 75%;
-    height: 4000px;
-}#nav_div{
+    height: 2200px;
+    margin-bottom: 3%;
+  
+} #menu2 div{
+    /* border: 6px solid red; */
+    height: 550px;
+    
+    
+}
+#nav_div{
     height: 30px;
 }#menu1 div{
     margin-left: 15%;
@@ -19,11 +27,15 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 4%;
+    overflow: hidden;
+    
     /* border: 1 px solid black */
-}#f{
-    margin-top: 60%;
-  
 }
+
+  
+    /* border: 2px solid blue; */
+  
+
 #menu2a img{
     height: 200px;
 }#menu1 h3{
@@ -38,7 +50,14 @@
 }#menu2b {
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 4%;
+    overflow: hidden;
+    
+    
 }
+ #menu2b>div{
+    border: 1px solid white;
+ }
 #menu2b img{
     height: 200px; 
 }menu2b button{
@@ -64,6 +83,8 @@ menu2d button{
 #menu2c{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 4%;
+    overflow: hidden;
 
 }#menu2c img{
     height: 200px;
@@ -76,6 +97,8 @@ menu2d button{
 }#menu2d{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 4%;
+    overflow: hidden;
 }#menu2d img{
     height: 200px;
 }menu2d button{
